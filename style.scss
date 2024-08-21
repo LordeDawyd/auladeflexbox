@@ -1,0 +1,38 @@
+.item {
+    border: solid rgb(2, 63, 2);
+}
+
+.conteiner {
+    border: solid tomato;
+    display: flex; // ativa o flexbox
+    justify-content: center; // alinha ao eixo x horizontal
+    // flex-start: ; //comportamento padrão.
+    // flex-end : ; // alinha ao final do container 
+    // justify - content: space-between; // espaçamento entre os elementos
+    justify-content: space-around; //espaço ao redor dos elementos
+    // justify-content: space-evenly;// os itens são distribuídos igualmente no espaço disponível.
+}
+.item2{
+    border: solid pink;
+}
+.conteiner2{
+    display: flex;
+    height: 80px;
+   // align-items: center; // os itens são alinhados ao longo do eixo transversal, que é perpendicular à direção do fluxo dos elementos.
+    align-items: stretch; // estica fora, preenchendo todo contedo
+  // align-items: flex-end;//para alinhá-los a partir da base ou center , para que o alinhamento seja centralizado.
+    justify-content: center;
+}
+.container3{
+border: solid yellowgreen;
+}
+.item3{
+    border: solid burlywood;
+    display: flex;
+    // define  a direção em que os itens vão se organizar
+   // flex-direction: row; // padrão para todos os itens, eles irão ficar alinhados ao eixo x, horizontal, " em linha " um ao lado do outro.
+    // flex-direction: column; // alinha as colunas, um embaixo da outra
+   // flex-direction: column-reverse; // os itens serão alinhados de cima para baixo
+    flex-direction: row-reverse;// os itens são organizados em forma de exibição em linha da direita para esqerda
+
+}
